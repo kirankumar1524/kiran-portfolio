@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import Lenis from '@studio-freight/lenis'
+import Lenis from "lenis";
 
 export default function useLenisScroll() {
   const lenisRef = useRef(null)
